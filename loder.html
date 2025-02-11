@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+.loder{
+   border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+   width: 120px;
+   height: 120px;
+   /*border-bottom: 16px solid #3498db;*/
+   /*border-right: 16px solid #3498db;
+   border-left: 16px solid #3498db;*/
+   box-sizing: border-box;
+   animation: rotation 1s linear infinite;
+justify-content: center;
+align-items: center;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+body{
+
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+</style>
+    </head>
+    <body>
+        <div class="loder"></div>
+    </body>
+</html>
